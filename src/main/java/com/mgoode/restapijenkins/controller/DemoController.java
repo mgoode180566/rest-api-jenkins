@@ -14,7 +14,7 @@ public class DemoController {
 
     @GetMapping("/")
     public String home() {
-        return "This is home for the Jenkins test  " + calculator.add(10, 30);
+        return "This is home for the Jenkins test   " + calculator.add(10, 30);
     }
 
 }
