@@ -1,6 +1,6 @@
 node {
    def mvnHome
-   stages {
+
        stage('Preparation') { // for display purposes
           // Get some code from a GitHub repository
           git 'https://github.com/mgoode180566/rest-api-jenkins.git'
@@ -27,5 +27,5 @@ node {
        stage('Deploy') {
           echo 'Deploying.....'
        }
-   }
+   
 }
