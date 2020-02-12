@@ -19,6 +19,7 @@ class RestApiJenkinsApplicationTests {
         Assertions.assertEquals(40, calculator.add(20, 20));
         Assertions.assertEquals(60, calculator.multiply(15, 4));
         Assertions.assertEquals(20, calculator.subtract(60, 40));
+        Assertions.assertEquals(10, calculator.subtract(50, 40));
     }
 
 }
