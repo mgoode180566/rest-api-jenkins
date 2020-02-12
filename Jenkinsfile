@@ -21,6 +21,6 @@ node {
       archiveArtifacts 'target/*.jar'
    }
    stage('Deploy') {
-       sh 'mvn clean install'
+       
    }
 }
