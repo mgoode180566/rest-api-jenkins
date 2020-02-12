@@ -16,12 +16,12 @@ class RestApiJenkinsApplicationTests {
     @Test
     void testCalculator() {
         Calculator calculator = new Calculator();
-        Assertions.assertEquals(420, calculator.add(20, 20));
-        Assertions.assertEquals(620, calculator.multiply(15, 4));
-        Assertions.assertEquals(220, calculator.subtract(60, 40));
-        Assertions.assertEquals(120, calculator.subtract(50, 40));
-        Assertions.assertEquals(52, calculator.divide(100, 20));
-        Assertions.assertEquals(50, calculator.divide(1000, 2));
+        Assertions.assertEquals(40, calculator.add(20, 20));
+        Assertions.assertEquals(60, calculator.multiply(15, 4));
+        Assertions.assertEquals(20, calculator.subtract(60, 40));
+        Assertions.assertEquals(10, calculator.subtract(50, 40));
+        Assertions.assertEquals(5, calculator.divide(100, 20));
+        Assertions.assertEquals(500, calculator.divide(1000, 2));
     }
 
 }
