@@ -1,6 +1,7 @@
 node {
+       def mvnHome
        stage('Preparation') { // for display purposes
-              def mvnHome
+
               // Get some code from a GitHub repository
               git 'https://github.com/mgoode180566/rest-api-jenkins.git'
               // Get the Maven tool.
