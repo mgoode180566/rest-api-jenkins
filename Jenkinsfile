@@ -1,4 +1,4 @@
-pipeline {
+node {
    def mvnHome
    stages {
        stage('Preparation') { // for display purposes
@@ -23,7 +23,7 @@ pipeline {
           junit '**/target/surefire-reports/TEST-*.xml'
           archiveArtifacts 'target/*.jar'
        }
-       
+
        stage('Deploy') {
           echo 'Deploying.....'
        }
